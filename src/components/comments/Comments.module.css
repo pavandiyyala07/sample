@@ -1,0 +1,15 @@
+.comments{
+    text-align: center;
+}
+
+.btn{
+    background: #005555;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    color: rgb(241, 232, 232);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}

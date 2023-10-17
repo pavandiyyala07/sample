@@ -1,0 +1,168 @@
+.head{
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    background: #005555;
+    color: rgb(241, 232, 232);
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15rem;
+    color: rgb(241, 232, 232);
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bff6f6;
+    min-height: 41rem;
+}
+
+.box{
+    height: 12rem;
+    width: 30rem;
+    margin-top: 3rem;
+    background: #04021b;
+    color: #bff6f6;
+    box-shadow: 1px 1px 0px 0px #888888;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.text1{
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    height: 8rem;
+}
+
+.text2{
+    font-weight: bold;
+    font-family: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-style: italic;
+}
+.body2{
+    width: 30rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headTag{
+    color: #04021b;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.btn{
+    background: #005555;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    color: rgb(241, 232, 232);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.text3{
+    color: #464646;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.anotherComponentBox{
+    border-top: 1px solid #005555;
+    border-bottom: 1px solid #005555;
+    width: 38rem;
+    text-align: center;
+}
+/* second page  */
+.ascBox{
+    border-bottom: 2px solid #afaeae;
+    width: 35rem;
+}
+
+.ascText{
+    height: 1.5rem;
+    width: 8rem;
+    color: #005555;
+    text-align: center;
+    border: 1px solid #afaeae;
+    border-radius: 0.3rem;
+    font-weight: 500;
+}
+
+.taskBox{
+    height: 4rem;
+    width: 35rem;
+    border-radius : 0.5rem;
+    background-color: rgb(153, 200, 228);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-left : 0.8rem;
+    padding-right : 0.8rem;
+    align-items: flex-end;
+}
+.taskHead{
+    color: #04021b;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.taskTail{
+    margin-top: 0px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* third page  */
+.formBox{
+    min-height: 15rem;
+    width: 35rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px 2px #888888;
+    margin: 2rem 0rem;
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputHead{
+    color: #04021b;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.input{
+    border-style: none;
+    background-color: #ccc;
+    height: 1.2rem;
+    border-radius: 0.2rem;
+}
+
+.textarea{
+    border-style: none;
+    background-color: #ccc;
+    min-height: 8rem;
+    min-width: 34.7rem;
+    border-radius: 0.2rem;
+}
+
+.addQuoteBox{
+    width: 35rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}

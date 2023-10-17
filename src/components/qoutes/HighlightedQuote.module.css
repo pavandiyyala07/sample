@@ -1,0 +1,29 @@
+.quote{
+    height: 12rem;
+    width: 30rem;
+    margin-top: 3rem;
+    background: #04021b;
+    color: #bff6f6;
+    box-shadow: 1px 1px 0px 0px #888888;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem 1rem;
+}
+
+.text{
+    font-weight: 600;
+    font-size: 24px;
+    min-height: 3rem;
+    margin-bottom: 4rem;
+}
+
+.textAuthor{
+    font-weight: bold;
+    font-family: italic;
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    width: 28rem;
+}

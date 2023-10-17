@@ -1,0 +1,61 @@
+.form{
+    min-height: 15rem;
+    min-width: 35rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px 2px #888888;
+    margin: 2rem 0rem;
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.control{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.inputHead{
+    color: #04021b;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.input{
+    border-style: none;
+    background-color: #ccc;
+    height: 1.2rem;
+    border-radius: 0.2rem;
+    min-width: 34.7rem;
+}
+
+.input:focus{
+    outline-color: #005555;
+}
+
+.textarea{
+    border-style: none;
+    background-color: #ccc;
+    min-height: 8rem;
+    min-width: 34.7rem;
+    border-radius: 0.2rem;
+}
+
+.textarea:focus{
+    outline-color: #005555;
+}
+
+
+.btn{
+    background: #005555;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    color: rgb(241, 232, 232);
+    cursor: pointer;
+}

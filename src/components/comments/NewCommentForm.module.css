@@ -1,0 +1,33 @@
+.btn{
+    background: #005555;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    color: rgb(241, 232, 232);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.inputHead{
+    color: #04021b;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
+}
+.textarea{
+    border-style: none;
+    background-color: #ccc;
+    min-height: 8rem;
+    min-width: 34.7rem;
+    border-radius: 0.2rem;
+}
+.textarea:focus{
+    outline:#005555;
+}
